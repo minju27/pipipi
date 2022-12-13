@@ -1,0 +1,120 @@
+.intro{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+  	margin: 10vw auto 15vw auto;
+}
+a .button {
+  font-family: 'Pretendard-Regular';
+  text-transform: uppercase;
+  outline: 0;
+  background: #ff9900;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+a .button:hover {
+  background: #ffa31a;
+}
+.ch{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+  	margin: 10vh auto 20vh auto;
+}
+.box{
+    flex:1;
+    margin: 2vw auto 0% auto;
+    border:3px solid #201000; 
+}
+.box h2{
+    font-size:1.5vw;
+    margin-left:3vw;
+}
+.box h1{
+    font-size:3vw;
+    margin:1vw 5vw 0 5vw;
+}
+table{
+	   border-collapse: collapse;
+	   border:0px solid white;
+        border-spacing: 0;
+        text-align:center;
+        margin:auto;
+        box-shadow: 0px 3px 3px #EEEEEE;
+}
+
+th{
+	background-color:silver;
+	height:4.5vw;
+	font-size:1.5vw;
+}
+.aligntime{
+	margin-left:12%;
+}
+td{
+	height:4vw;
+	font-size:1.3vw;
+	box-shadow: 0px 3px 3px #EEEEEE;
+}
+.header2 a {color:white; text-decoration:none; padding:2vw;}
+.header2 a:hover {background-color:#ff8000;}
+button{
+	margin: 0 1vw 1vw auto;	
+	border:0px;
+	height:3vw;
+	padding:0.5vw 1vw 0.5vw 1vw;
+	box-shadow: 0px 3px 3px #EEEEEE;
+	background-color:#5D5D5D;
+	color:white;
+	font-size:1vw;
+	border-radius: 1vw;
+}
+button:hover,.darkback input:hover{
+	background-color:#ff8000;
+}
+.darkback input{
+	margin:auto;	
+	border:0px;
+	height:4vw;
+	padding:0.5vw;
+	box-shadow: 0px 3px 3px #EEEEEE;
+	background-color:#4D4D4D;
+	color:white;
+	font-size:1vw;
+	padding:0.5vw 20% 0.5vw 20%;
+	border-radius: 1vw;
+}
+.darksmall input{
+	margin:auto;	
+	border:0px;
+	height:4vw;
+	padding:3vw;
+	box-shadow: 0px 3px 3px #EEEEEE;
+	background-color:#4D4D4D;
+	color:white;
+	font-size:1vw;
+	padding:0.5vw 5% 0.5vw 5%;
+	border-radius: 1vw;
+}
+.whiteback input{
+	margin:auto;	
+	border:0px;
+	height:4vw;
+	background-color:white;
+	color:black;
+	font-size:1vw;
+	padding:0.5vw 20% 0.5vw 20%;
+	border-radius: 1vw;
+}
+.infoalign td{
+	font-size:1.5vw;
+	padding:0.5vw 5% 0.5vw 5%;
+}

@@ -1,0 +1,118 @@
+
+    <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/htmlheader.css"/>
+<link rel="stylesheet" href="css/resercheck.css"/>
+<link rel="stylesheet" href="nav.css" />
+<meta charset="UTF-8">
+<title>정보 수정 입력</title></head>
+<body>
+<div id="wrap">
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <a href="main.jsp">
+                <h1>DCR</h1>
+            </a>
+        </div>
+
+        <ul class="navbar_menu">
+            <li><a href="reserselectschool.jsp">예약 페이지</a></li>
+            <li><a href="board-list.jsp">고객센터</a></li>
+            <li><a href="guest.jsp">협업</a></li>
+            <li><a href="SiteMap.jsp">사이트맵</a></li>
+        </ul>
+
+        <ul class="navbar_icon">
+             <li><a href="logoutAction.jsp">로그아웃</a></li>
+            <li><a href="mypage.jsp">마이페이지</a></li>
+        </ul>
+        
+        <input type="checkbox" id="menuicon">
+        <label for="menuicon" class="menubtn">
+        	<span></span>
+        	<span></span>
+        	<span></span>
+        </label>
+        
+       <div class="sidebar">
+            <span class="area_desc">
+                <div class="menu">
+                    <input type="checkbox" id="expand-menu" name="expand-menu">
+                    <ul>
+                        <li><a href="reserselectschool.jsp" class="item"><div><b>예약 페이지</b></div></a></li>
+                        <br>
+                        <li><a href="board-list.jsp" class="item"><div><b>고객센터</b></div></a></li>
+                        <li><a href="board-list.jsp" class="item"><div class="sub_menu">공지사항</div></a></li>
+                        <li><a href="guide.jsp" class="item"><div class="sub_menu">이용안내</div></a></li>
+                        <li><a href="Q&A-list.jsp" class="item"><div class="sub_menu">Q&A</div></a></li>
+                        <br>
+                        <li><a href="guest.jsp" class="item"><div><b>협업</b></div></a></li>
+                        <br>
+                        <li><a href="SiteMap.jsp" class="item"><div><b>사이트맵</b></div></a></li>
+                        <br>
+                        <li><a href="mypage.jsp" class="item"><div class="main-menu"><b>마이페이지</b></div></a></li>
+                        <li><a href="myinfo.jsp" class="item"><div class="sub_menu">나의 정보 확인</div></a></li>
+                        <li><a href="reserpre.jsp" class="item"><div class="sub_menu">이전 예약 정보</div></a></li>
+                        <li><a href="resernow.jsp" class="item"><div class="sub_menu">현재 예약 정보</div></a></li>
+
+                    </ul>
+                </div>
+
+        	</span>
+        </div>
+        
+    </nav>
+	<div style="background-color:white; ">
+    <div class="list" style="padding:125px  10px 20px 10px;">
+    <hr width="90%">
+    <center>
+            <h2>변경하고자하는 정보를 입력해주세요.</h2>
+            변경을 원하지 않는 부분은 비워주시면 됩니다.
+        </center>
+    <hr width="90%">     
+    </div> 
+	</div>
+
+<main>
+<div class="ch">
+	<form action="changemyinfo_input.jsp" method="get">
+	<br>
+	<center>
+		<table class="whiteback" border="0" width="50%" >
+			<tr>
+				<td>이&emsp;&emsp;름 : </td>
+				<td><input type="text" name="name" maxlength="20"></td>
+			</tr><tr>
+				<td>전화번호 : </td>
+				<td><input type="text" name="phone" maxlength="20"></td>
+			</tr><tr>
+				<td>이&ensp;메&ensp;일 : </td>
+				<td><input type="email" name="e_mail" maxlength="50"></td>
+			</tr><tr>
+				<td>PassWord: </td>
+				<td><input type="password" name="passwd" maxlength="20"></td>
+			</tr>
+		</table><br><br>
+		<div class="darksmall">
+			<input type="submit" value="수정">&emsp;&emsp;&emsp;<input type="reset" value="초기화">
+		</div>
+	</center>
+	</form>
+</div>
+</main> 
+    
+    	<section>
+        <footer>
+          <p>
+          	  <span class="brand"><b>Brand</b></span><br/><br/><br/>
+              <span>대표 : grade type=웹프A+</span><br/>
+              <span>dongguk@dgu.ac.kr   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   02-2260-3114</span><br/>
+              <span>04620 서울특별시 중구 필동로 1길 30 동국대학교</span><br/>
+              <span>Copyright 2022. grade type=웹프A+. All Rights Reserved.</span>
+          </p>
+      </footer>
+      </section>
+       </div> 
+</body>
+</html>

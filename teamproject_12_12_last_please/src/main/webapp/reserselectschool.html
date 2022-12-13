@@ -1,0 +1,101 @@
+<link rel="stylesheet" href="css/htmlheader.css"/>
+<link rel="stylesheet" href="nav.css" />
+<meta charset="UTF-8">
+<title>원하시는 곳을 선택해주세요</title>
+<body>
+<div id="wrap">
+    <nav class="navbar" >
+        <div class="navbar_logo" style="text-decoration: none;">
+            <a href="main.jsp">
+                <h1>DCR</h1>
+            </a>
+        </div>
+
+        <ul class="navbar_menu">
+            <li><a href="reserselectschool.jsp">예약 페이지</a></li>
+            <li><a href="board-list.jsp">고객센터</a></li>
+            <li><a href="guest.jsp">협업</a></li>
+            <li><a href="SiteMap.jsp">사이트맵</a></li>
+        </ul>
+
+        <ul class="navbar_icon">
+            <li><a href="logoutAction.jsp">로그아웃</a></li>
+            <li><a href="mypage.jsp">마이페이지</a></li>
+        </ul>
+        
+        <input type="checkbox" id="menuicon">
+        <label for="menuicon" class="menubtn">
+        	<span></span>
+        	<span></span>
+        	<span></span>
+        </label>
+        
+<div class="sidebar">
+            <span class="area_desc">
+                <div class="menu">
+                    <input type="checkbox" id="expand-menu" name="expand-menu">
+                    <ul>
+                        <li><a href="reserselectschool.jsp" class="item"><div><b>예약 페이지</b></div></a></li>
+                        <br>
+                        <li><a href="board-list.jsp" class="item"><div><b>고객센터</b></div></a></li>
+                        <li><a href="board-list.jsp" class="item"><div class="sub_menu">공지사항</div></a></li>
+                        <li><a href="guide.jsp" class="item"><div class="sub_menu">이용안내</div></a></li>
+                        <li><a href="Q&A-list.jsp" class="item"><div class="sub_menu">Q&A</div></a></li>
+                        <br>
+                        <li><a href="guest.jsp" class="item"><div><b>협업</b></div></a></li>
+                        <br>
+                        <li><a href="SiteMap.jsp" class="item"><div><b>사이트맵</b></div></a></li>
+                        <br>
+                        <li><a href="mypage.jsp" class="item"><div class="main-menu"><b>마이페이지</b></div></a></li>
+                        <li><a href="myinfo.jsp" class="item"><div class="sub_menu">나의 정보 확인</div></a></li>
+                        <li><a href="reserpre.jsp" class="item"><div class="sub_menu">이전 예약 정보</div></a></li>
+                        <li><a href="resernow.jsp" class="item"><div class="sub_menu">현재 예약 정보</div></a></li>
+
+                    </ul>
+                </div>
+
+            </span>
+        </div>
+        
+    </nav>
+
+    <main>
+            <center><div class="titleB"style="font-size:50px;">예약하고자하는 곳을 선택해주세요!</center>
+        <section class="intro">
+            <div class="card">
+                <!-- <i class="fab fa-css3-alt"></i> -->
+                <h1>서울 캠퍼스</h1>
+                <a href="seoulmap.jsp">
+                    <img src="seoul.jpg" alt=""/>
+                </a>
+            </div>
+            <div class="pop">서울 캠퍼스로 이동하시겠어요?</div>
+            <div class="card">
+                <!-- <i class="fab fa-css3-alt"></i> -->
+                <h1>일산 캠퍼스</h1>
+                <a href="Ilsan.jsp">
+                    <img src="Ilsan.jpg" alt=""/>
+                </a>
+            </div>
+            <div class="pop">일산 캠퍼스로 이동하시겠어요?</div>
+        </section>
+      </main> 
+      
+    	<section>
+        	<!-- 대충 뭐 요소들이 가득차있음 -->
+        </section>
+        
+        <footer>
+          <p>
+          	  <span class="brand"><b>Brand</b></span><br/><br/><br/>
+              <span>대표 : grade type=웹프A+</span><br/>
+              <span>dongguk@dgu.ac.kr   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp| &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   02-2260-3114</span><br/>
+              <span>04620 서울특별시 중구 필동로 1길 30 동국대학교</span><br/>
+              <span>Copyright 2022. grade type=웹프A+. All Rights Reserved.</span>
+          </p>
+      </footer>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+h1{
+		font-size:35px;	
+		font-weight: bold;
+	}
+	h2{
+		padding: 25px 10px;
+		margin-left:5%;
+		margin-top:5%;
+	}
+	.menu{
+		white-space:nowrap;
+		will-change:transform;
+		text-align:center;
+		border-radius: 40px;
+	}
+	.nav{
+		justify-content: center;
+		display: flex; 
+    	background-color: lightgray;
+  		padding: 5px 10px;
+	}
+	.nav .nav-menu{
+  		display: flex; 
+  		list-style: none;
+  		 gap: 2rem;
+  		 justify-content: center;
+  		 font-size: 20px;
+	}
+	.nav .nav-menu a{
+ 	 color: #222;
+ 	 text-decoration: none;
+ 	 text-transform: uppercase;
+	}
+	.nav .nav-menu a:hover{
+ 	 background-color: black;
+ 	 color:white;
+ 	 padding: 12px 12px;
+ 	 border-radius: 40px;
+ 	 font-weight: bold;
+	}
+	a.menu {
+    	display: inline-block;
+   	 	padding: 20px 20px;
+   	 	margin: 10px 10px;
+    	color: #fff;
+   	 	text-decoration: none;
+    	background-color: gray;
+	}
+	.select[aria-selected='true']{
+ 	 background-color: darkgray;
+ 	 padding: 12px 12px;
+ 	 border-radius: 40px;
+ 	 font-weight: bold;
+}
+.table{
+text-align:center;
+border-collapse:collapse;
+}
+.table a{
+ 	 color: darkblue;
+ 	 text-decoration: none;
+ 	 text-transform: uppercase;
+}
